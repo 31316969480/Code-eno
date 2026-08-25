@@ -864,7 +864,7 @@ end
 ConsoleOutput:GetPropertyChangedSignal("AbsoluteSize"):Connect(updateConsoleCanvas)
 task.defer(updateConsoleCanvas)
 
-local DiscordFooter = makeLabel(Window, "DiscordFooter", "https://discord.gg/nvj2qQkXZC.fromOffset(140, 19), UDim2.new(0.5, -70, 0, 346), 10, COLORS.White, Enum.Font.GothamBold)
+local DiscordFooter = makeLabel(Window, "DiscordFooter", " .fromOffset(140, 19), UDim2.new(0.5, -70, 0, 346), 10, COLORS.White, Enum.Font.GothamBold)
 DiscordFooter.TextXAlignment = Enum.TextXAlignment.Center
 DiscordFooter.BackgroundColor3 = COLORS.Window
 DiscordFooter.BackgroundTransparency = 1
